@@ -155,6 +155,20 @@ Shows AI-generated summary, suggested priority, extracted skills, and estimated 
 ### Auto-Assignment in Action
 When a billing ticket is created, AI extracts skills like "payment gateway", "Stripe", and automatically assigns it to a moderator with matching skills.
 
+## 🌐 Live Demo
+
+| | Link |
+|---|---|
+| 🌐 **Live App** | [smart-ticket-system-nine.vercel.app](https://smart-ticket-system-nine.vercel.app) |
+| ⚙️ **Backend API** | [smart-ticket-system.onrender.com](https://smart-ticket-system.onrender.com) |
+| 📁 **GitHub** | [github.com/N24-7/smart-ticket-system](https://github.com/N24-7/smart-ticket-system) |
+
+### Demo Credentials
+| Role | Email | Password |
+|------|-------|----------|
+| User | test@test.com | 123456 |
+| Moderator | sarah@test.com | 123456 |
+
 ## 🚢 Deployment
 
 ### Backend (Render)
@@ -168,7 +182,6 @@ When a billing ticket is created, AI extracts skills like "payment gateway", "St
 2. Set root directory to `frontend`
 3. Add `VITE_API_URL=https://your-render-url.onrender.com/api`
 4. Deploy!
-
 ## 📝 License
 
 MIT License — feel free to use this project for your portfolio!
